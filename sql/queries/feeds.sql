@@ -5,3 +5,5 @@ RETURNING *;
 
 -- name: GetFeeds :many
 SELECT * FROM feeds;
+
+-- name: GetNextFeedToFetch :one
